@@ -22,6 +22,6 @@ KEYPOINT-->without making use of any h/w like wifi module arduino communicates w
     3.[pyserial.py] establishes serial communication with arduino
       then read's data from that and store it in some csv file as[timestamp,string of 1 and 0]
     
-    4.parallely [mailhandler.py] open's the csbv file read data last record from that 
+    4.parallely [mailhandler.py] open's the csv file read data last record from that 
       formulate the message and send it to the user's mail-id 
    
